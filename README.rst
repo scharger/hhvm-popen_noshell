@@ -5,13 +5,15 @@ popen_noshell: A faster implementation of popen() and system() for Linux.
 
 Build:
 
-.. code-block:: sh
+```sh
   hphpize;
   cmake . && make;
-  
+```
+
 Usage:
 
-.. code-block:: hack
+```hack
    
    <?hh
    nshell_exec("ls /");
+```
