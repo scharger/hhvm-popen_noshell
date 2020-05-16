@@ -3,17 +3,16 @@ popen_noshell implementation for HHVM
 
 popen_noshell: A faster implementation of popen() and system() for Linux.
 
-Build:
+##Build:
 
-.. code-block:: 
+```shell
   hphpize;
   cmake . && make;
+```
 
+##Usage:
 
-Usage:
-
-.. code-block:: hack
-   
+```hack
    <?hh
    nshell_exec("ls /");
-
+```
