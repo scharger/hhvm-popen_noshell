@@ -16,7 +16,7 @@ hphpize
 In case of "-bash: hphpize: command not found" try following actions (Replace _YOUR_HHVM_VERSION_):
 
 #### 0.1.
-Move content from /__PGKROOT__/lib/ to /opt/hhvm/_YOUR_HHVM_VERSION_/
+Move content from /"__PGKROOT__"/lib/ to /opt/hhvm/_YOUR_HHVM_VERSION_/
 
 #### 0.2.
 ```shell
