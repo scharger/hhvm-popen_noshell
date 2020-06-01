@@ -15,15 +15,15 @@ hphpize
 
 In case of "-bash: hphpize: command not found" try following actions (Replace _YOUR_HHVM_VERSION_):
 
-### 0.1.
+#### 0.1.
 Move content from /__PGKROOT__/lib/ to /opt/hhvm/_YOUR_HHVM_VERSION_/
 
-### 0.2.
+#### 0.2.
 ```shell
 /opt/hhvm/_YOUR_HHVM_VERSION_/bin/hphpize && cmake . && make && cp nshell.so /etc/hhvm/nshell.so && service hhvm restart && hhvm tests/test.php
 ```
 
-### 0.3.
+#### 0.3.
 In case of "low-ptr-def.h" error try to generate file
 
 ```shell
