@@ -45,15 +45,23 @@ to
 For example folly for HHVM 4.8:
 https://github.com/facebook/hhvm/
 -> select Branch HHVM-4.8
+
 -> go to: "third-party"
+
 -> go to: "folly"
+
 -> go to: "src"
+
 -> clone or download (copy link "Download ZIP")
 
 -> cd /opt/hhvm/4.8.8/include/
+
 -> wget https://github.com/facebook/folly/archive/8f6d3b107d07324f2876e021948f2c36186ae369.zip (Your link)
+
 -> Open downloaded ZIP
+
 -> Go to folly-8f6d3b107d07324f2876e021948f2c36186ae369
+
 -> extract folly dir to /opt/hhvm/4.8.8/include/
 
 #### 1. 
