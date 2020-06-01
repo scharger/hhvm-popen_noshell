@@ -20,7 +20,8 @@ Move content from /__ PGKROOT__/lib/ to /opt/hhvm/_YOUR_HHVM_VERSION_/
 
 #### 0.2.
 ```shell
-/opt/hhvm/_YOUR_HHVM_VERSION_/bin/hphpize && cmake . && make && cp nshell.so /etc/hhvm/nshell.so && service hhvm restart && hhvm tests/test.php
+export hphpizepatch=/opt/hhvm/_YOUR_HHVM_VERSION_/bin/
+make
 ```
 
 #### 0.3.
